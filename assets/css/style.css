@@ -147,7 +147,7 @@ html {
 }
 
 body {
-  background-color: var(--space-cadet);
+  background-color:rgb(9, 8, 8);
   color: var(--cadet-blue-crayola);
   font-size: 1.6rem;
   line-height: 1.6;
@@ -185,7 +185,7 @@ body {
   transition: var(--transition-2);
 }
 
-.btn-primary.blue { background-color: var(--klein-blue); }
+.btn-primary.blue { background-color: rgb(32, 174, 32); }
 
 .btn-primary.blue:is(:hover, :focus) { background-color: var(--orange-soda); }
 
@@ -198,7 +198,7 @@ body {
 .section { padding-block: var(--section-padding); }
 
 .section-subtitle {
-  color: var(--orange-soda);
+  color: rgb(20, 181, 20);
   font-family: var(--ff-barlow);
   font-size: var(--fs-4);
   text-align: center;
@@ -231,7 +231,7 @@ body {
   position: fixed;
   padding-block: 15px;
   width: 100%;
-  background-color: var(--space-cadet);
+  background-color: rgb(43, 167, 43);
   height: 65px;
   box-shadow: var(--shadow);
   overflow: hidden;
@@ -290,7 +290,7 @@ body {
 .navbar-link:is(:hover, :focus) { color: var(--orange-soda); }
 
 .navbar .btn {
-  background-color: var(--orange-soda);
+  background-color: rgb(40, 185, 40);
   margin-block-start: 15px;
 }
 
@@ -415,7 +415,7 @@ body {
 .portfolio-list > li:nth-child(even) .card-content { margin-inline-start: auto; }
 
 .portfolio-card .card-subtitle {
-  color: var(--orange-soda);
+  color: rgb(26, 175, 26);
   margin-block-end: 5px;
 }
 
@@ -476,7 +476,7 @@ body {
 }
 
 .skills-progress {
-  background-color: var(--orange-soda);
+  background-color: rgb(36, 173, 36);
   height: 100%;
   border-radius: inherit;
 }
@@ -490,7 +490,7 @@ body {
 \*-----------------------------------*/
 
 .contact-card {
-  background-color: var(--midnight-blue);
+  background-color: rgb(43, 168, 43);
   padding: 50px 25px;
   border-radius: var(--radius-20);
 }
@@ -552,7 +552,7 @@ textarea.contact-input {
 .contact-item:not(:last-child) { margin-block-end: 20px; }
 
 .contact-icon {
-  background-color: var(--glaucous);
+  background-color: black;
   font-size: 2.4rem;
   padding: 20px;
   border-radius: 50%;
